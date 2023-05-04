@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
-import Table from "./component/Table";
-import { database, app } from "./firebase";
+import React, { useState } from "react";
+import { database } from "../lib/firebase";
 import { ref, set } from "firebase/database";
 
 function Form() {
